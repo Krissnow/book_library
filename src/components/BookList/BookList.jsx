@@ -65,7 +65,8 @@ const BookList = () => {
             <li key={book.id}>
               <div className="book-info">
                 {++i}. {highLitghtMatch(book.title, titleFilter)} by{" "}
-                <strong>{highLitghtMatch(book.author, authorFilter)}</strong>
+                <strong>{highLitghtMatch(book.author, authorFilter)}</strong>(
+                {book.source})
               </div>
               <div className="book-actions">
                 <span
