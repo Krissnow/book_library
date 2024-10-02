@@ -37,7 +37,7 @@ const Filter = () => {
       <div className="filter-row">
         <div className="filter-group">
           <input
-            tupe="text"
+            type="text"
             value={titleFilter}
             placeholder="Filter by title..."
             onChange={handleTitleFilterChange}
@@ -45,7 +45,7 @@ const Filter = () => {
         </div>
         <div className="filter-group">
           <input
-            tupe="text"
+            type="text"
             value={authorFilter}
             placeholder="Filter by author..."
             onChange={handleAuthorFilterChange}
